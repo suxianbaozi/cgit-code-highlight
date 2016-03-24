@@ -1,32 +1,12 @@
-# Object files
+# Files I don't care to see in git-status/commit
+/cgit
+cgit.conf
+CGIT-CFLAGS
+VERSION
+cgitrc.5
+cgitrc.5.fo
+cgitrc.5.html
+cgitrc.5.pdf
+cgitrc.5.xml
 *.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+*.d
